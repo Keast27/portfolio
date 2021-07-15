@@ -50,7 +50,7 @@ header h3{
 
 header{
   padding-top: 19%;
-  background-image: url('images/me.png');
+  background-image: url('../images/me.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right; 
@@ -204,7 +204,7 @@ footer h3{
 
 footer{
    
-    background-image: url('images/meEnd.png');
+    background-image: url('../images/meEnd.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: left; 
