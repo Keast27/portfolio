@@ -1,0 +1,780 @@
+html, body{
+    margin: 0;
+    font-family: 'Raleway', Lato, Arial;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-y: hidden;
+}
+
+header h1, header hr, header h2, header h3{
+    margin-left: 10%;   
+}
+
+section{
+    margin-left: 10%;    
+    margin-right: 5%;
+    position: relative;
+    
+}
+
+
+
+header h1{
+    margin-top: -12%;
+    font-weight: bold;
+    font-size: 60px;
+    color: #EF5B5B;
+    margin-bottom: 2%;
+    
+}
+
+header h2{
+    margin-top: 5%;
+    font-weight: 400;
+    font-size: 40px;
+    color: #20A39E;
+    margin-bottom: 2%;
+    
+}
+
+header h3{
+    margin-top: 1%;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFBA49;
+
+}
+
+
+header{
+  padding-top: 19%;
+  background-image: url('images/me.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right; 
+  background-size: 600px;
+  padding-bottom: 3%;
+  position: relative;
+  z-index: -1;
+}
+
+h3 span{
+    font-weight: bold;
+    
+}
+
+
+header .one{
+    border: 4px dashed #FFBA49;
+    width: 380px;
+    margin-right: 50%;
+    float: left;
+
+}
+
+header .two{
+    border: 4px dashed #FFBA49;
+    margin-right: 39.5%;
+    width: 340px;
+    float: left;
+    margin-bottom: 2%;
+
+}
+
+nav ul li a{
+    font-weight: bold;
+    font-size: 40px;
+    color: #EF5B5B;
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 17%;
+    
+}
+
+
+nav ul li a:hover{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FFBA49;
+   
+    margin-left: 17%;
+    
+}
+
+nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav{
+    margin-top: -4%;
+    z-index: 1;
+}
+#about h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #FFBA49;
+    margin-bottom: 2%;
+}
+#projects h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #EF5B5B;
+    margin-bottom: 2%;
+}
+
+#skills h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #FFBA49;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+
+#skills li{
+    font-weight: bold;
+    font-size: 30px;
+    color: #EF5B5B;
+    margin-bottom: 2%;
+}
+.wrapper {
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 3%;
+    grid-column-gap: 5%;
+    padding-bottom: 2%;
+  }
+.wrapper img{
+    width: 100%;
+}
+
+.wrapper p {
+    font-weight: bold;
+}
+footer{
+    
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+#foot {
+    margin-top: 5%;
+    float: right;
+    margin-left: 30%;
+}
+
+footer h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #EF5B5B;
+    margin-bottom: 2%;
+    
+}
+
+footer .one{
+    border: 4px dashed #FFBA49;
+    margin-right: 38%;
+
+}
+
+footer .two{
+    border: 4px dashed #FFBA49;
+    margin-right: 38%;
+    margin-left: 8%;
+
+}
+
+footer h2{
+    font-weight: 400;
+    font-size: 40px;
+    color: #20A39E;
+    
+}
+
+footer h3{
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: 60px;
+    color: #FFBA49;
+    margin-bottom: 0%;
+}
+
+footer{
+   
+    background-image: url('images/meEnd.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left; 
+    background-size: 600px;
+   
+    padding-bottom: 50%;
+  }
+
+.pink p{
+    color:#20A39E;
+}
+
+.pink a{
+    margin-top: 5%;
+    font-weight: bold;
+    color:#20A39E;
+    text-decoration: none;
+}
+
+.pink a:hover{
+    font-weight: bold;
+    color:#FFBA49;
+    text-decoration: none;
+}
+
+.skillB {
+    padding: 2px 10px;
+    border-radius: 2px;
+    color: #fff;
+    background: #20A39E;
+    margin-right: 5px;
+}
+
+.skillY {
+    padding: 2px 10px;
+    border-radius: 2px;
+    color: #fff;
+    background: #FFBA49;
+    margin-right: 5px;
+}
+
+.skillP {
+    padding: 2px 10px;
+    border-radius: 2px;
+    color: #fff;
+    background: #EF5B5B;
+    margin-right: 5px;
+}
+
+
+.blue p{
+    color:#FFBA49;
+}
+
+.blue a{
+    margin-top: 5%;
+    font-weight: bold;
+    color:#FFBA49;
+    text-decoration: none;
+}
+
+.blue a:hover{
+    font-weight: bold;
+    color:#EF5B5B;
+    text-decoration: none;
+}
+
+.yellow p{
+    color:#EF5B5B;
+}
+
+.yellow a{
+    margin-top: 5%;
+    font-weight: bold;
+    color:#EF5B5B;
+    text-decoration: none;
+}
+
+.yellow a:hover{
+    font-weight: bold;
+    color:#20a39e;
+    text-decoration: none;
+}
+
+ #res, #res a{
+    font-family: 'Raleway', Lato, Arial; 
+  background-color: #EF5B5B;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 10px 15px;
+  font-size: 30px;
+  font-weight: bold;
+  align-content: center;
+
+}
+
+#resLI{
+   list-style-type: none;
+}
+
+button a:hover{
+    color: #FFBA49;
+
+}
+ 
+
+header #square1{
+  height: 210px;
+  width: 210px;
+  background-color: rgb(255, 185, 71, 0.54);
+  position: absolute;
+  top: -20%;
+  left: -9%;
+  transform: rotate(45deg);
+}
+
+header #square2{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(32, 163, 158, 0.54);
+    position: absolute;
+    top: -25%;
+    left: 45%;
+    transform: rotate(111deg);
+  }
+
+header #square3{
+    
+    height: 350px;
+    width: 350px;
+    background-color: rgb(239, 91, 91, 0.54);
+    position: absolute;
+    top: -30%;
+    left: 90%;
+    transform: rotate(45deg);
+    
+  }
+
+header #square4{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(32, 163, 158, 0.54);
+    position: absolute;
+    top: 80%;
+    left: -22%;
+    transform: rotate(229deg);
+  }
+
+header  #square5{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(239, 91, 91, 0.54);
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    transform: rotate(60deg);
+  }
+
+header  #square6{
+    height: 210px;
+    width: 210px;
+    background-color: rgb(255, 185, 71, 0.54);
+    position: absolute;
+    top:  85.6%;
+    left: 95%;
+    transform: rotate(45deg);
+  }
+
+
+
+footer{
+    margin-top: 20%;
+    position: relative;
+}
+
+footer #Fsquare1{
+    transform: translate(-25%, -9%);
+    height: 210px;
+    width: 210px;
+    background-color: rgb(255, 185, 71, 0.54);
+    position: absolute;
+    
+    top: -20%;
+    left: -9%;
+    transform: rotate(45deg);
+  }
+  
+footer #Fsquare2{
+      height: 250px;
+      width: 250px;
+      background-color: rgb(32, 163, 158, 0.54);
+      position: absolute;
+      top: -25%;
+      left: 45%;
+      transform: rotate(152deg);
+    }
+  
+footer #Fsquare3{
+      
+      height: 350px;
+      width: 350px;
+      background-color: rgb(239, 91, 91, 0.54);
+      position: absolute;
+      top: -30%;
+      left: 100%;
+      transform: rotate(45deg);
+      
+    }
+  
+footer #Fsquare4{
+      height: 400px;
+      width: 400px;
+      background-color: rgb(32, 163, 158, 0.54);
+      position: absolute;
+      top: 80%;
+      left: -22%;
+      transform: rotate(229deg);
+    }
+  
+footer  #Fsquare5{
+      height: 250px;
+      width: 250px;
+      background-color: rgb(239, 91, 91, 0.54);
+      position: absolute;
+      top: 90%;
+      left: 40%;
+      transform: rotate(115deg);
+    }
+  
+footer  #Fsquare6{
+      height: 210px;
+      width: 210px;
+      background-color: rgb(255, 185, 71, 0.54);
+      position: absolute;
+      top:  85.6%;
+      left: 105%;
+      transform: rotate(45deg);
+    }
+
+
+
+footer h2 a, footer .fa{
+    color: #20A39E;
+    text-decoration: none;
+}
+
+footer h2 a:hover, footer .fa:hover{
+    color: #EF5B5B;
+    text-decoration: none;
+}
+   
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    float: none;
+    
+  }
+
+.modal .menuSkills  img{
+    float: left;
+    width: 50%;
+}
+
+.modal-content .modal p{
+    text-align: right;
+    width: 300px;
+   
+
+}
+
+.modal .menuSkills .stats{
+    margin-left: 5%;
+    
+}
+
+.modal .text{
+    margin-top: 2%;
+}
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+    #about p{
+        font-size: 150%;
+    }
+
+    #projects p{
+        font-size: 100%;
+    }
+
+  @media only screen and (min-width: 2560px) {
+    header h1, header h3 {
+        font-size: 800%;
+    }
+    footer h1, footer h3 {
+        font-size: 800%;
+    }
+    footer h3{
+        font-size: 800%;
+    }
+    header h2{
+        font-size: 550%;
+    }
+
+    header{
+    padding-top: 38%;
+    background-size: 1200px;
+    padding-bottom: 18%;
+    position: relative;
+    z-index: -1;
+    }
+
+    footer{
+         
+            padding-top: 38%;
+            background-size: 1200px;
+            padding-bottom: 20%;
+            position: relative;
+            
+    }
+
+#about p{
+    font-size: 300%;
+}
+#projects p, a{
+    font-size: 300%;
+}
+
+#skills li{
+    font-size: 350%;
+}
+
+section{
+    margin-top: 5%;
+}
+
+    #foot{
+        margin-right: -6%;
+        margin-top: -35%;
+    }
+    header h1, header h2, header h3, header hr{
+        margin-left: 8%;
+    }
+    #intro{
+        margin-top: -25%;
+    }
+    header #square1{
+        height: 510px;
+        width: 510px;
+        
+        position: absolute;
+        top: -18%;
+        left: -14%;
+        
+      }
+      
+      header #square2{
+          height: 550px;
+          width: 550px;
+          position: absolute;
+          top: -29.2%;
+          left: 36%;
+        }
+      
+      header #square3{
+          
+          height: 550px;
+          width: 550px;
+          position: absolute;
+          top: -20%;
+          left: 90%;
+          
+        }
+      
+      header #square4{
+          height: 800px;
+          width: 800px;
+         position: absolute;
+          top: 60%;
+          left: -22%;
+        }
+      
+      header  #square5{
+          height: 500px;
+          width: 500px;
+          background-color: rgb(239, 91, 91, 0.54);
+          position: absolute;
+          top: 70%;
+          left: 45%;
+          transform: rotate(60deg);
+        }
+      
+      header  #square6{
+          height: 410px;
+          width: 410px;
+          background-color: rgb(255, 185, 71, 0.54);
+          position: absolute;
+          top:  70%;
+          left: 95%;
+          transform: rotate(45deg);
+        }
+
+        footer #Fsquare1{
+            height: 510px;
+            width: 510px;
+            
+            position: absolute;
+            top: -18%;
+            left: -14%;
+            
+          }
+          
+          footer #Fsquare2{
+              height: 550px;
+              width: 550px;
+              position: absolute;
+              top: -24%;
+              left: 36%;
+            }
+          
+            footer #Fsquare3{
+              
+              height: 550px;
+              width: 550px;
+              position: absolute;
+              top: -15%;
+              left: 100%;
+              
+            }
+          
+          footer #Fsquare4{
+              height: 800px;
+              width: 800px;
+             position: absolute;
+              top: 72%;
+              left: -22%;
+            }
+          
+            footer #Fsquare5{
+              height: 500px;
+              width: 500px;
+              background-color: rgb(239, 91, 91, 0.54);
+              position: absolute;
+              top: 89%;
+              left: 43%;
+              transform: rotate(60deg);
+            }
+          
+            footer #Fsquare6{
+              height: 410px;
+              width: 410px;
+              background-color: rgb(255, 185, 71, 0.54);
+              position: absolute;
+              top:  86%;
+              left: 103%;
+              transform: rotate(45deg);
+            }
+
+            footer h2{
+                font-size: 200%;
+            }
+        
+      
+  }
+
+  @media only screen and (max-width: 600px) {
+      header{
+          overflow: hidden;
+          z-index: -1;
+      }
+
+      nav{
+          margin-top: 2%;
+          margin-left: -20%;
+          z-index: 0;
+      }
+
+      header h1{
+          color: #20A39E;
+      }
+
+      footer h1{
+          font-size: 50px;
+          color:  #EF5B5B;
+      }
+      footer h2 a, footer h2 a i.fa{
+        font-size: 30px;
+        color: #EF5B5B;
+    }
+     footer h3{
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+
+      header h2{
+          font-weight: 500;
+      }
+
+      
+    .wrapper {
+        align-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 3%;
+        grid-column-gap: 5%;
+      }
+
+      #skills{
+          margin-top: 270%;
+        }
+
+        #skills h1{
+            color: #EF5B5B ;
+        }
+        #skills li{
+            color: #FFBA49;
+            font-size: 100%;
+        }
+
+        footer{
+            padding-top: 10%;
+           margin-bottom: -20%;
+            margin-right: 0;
+            overflow: hidden;
+            padding-bottom: 30%;
+        }
+
+        #foot{
+           margin-top: 0;
+            margin-right: 15%;
+        }
+
+        #res{
+            font-size: 20px;
+        }
+  }
